@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@master/css': 1.37.8
   '@playwright/test': ^1.28.1
   '@sveltejs/adapter-auto': ^1.0.0
   '@sveltejs/kit': ^1.0.0
@@ -17,6 +18,9 @@ specifiers:
   typescript: ^4.9.3
   vite: ^4.0.0
   vitest: ^0.25.3
+
+dependencies:
+  '@master/css': 1.37.8
 
 devDependencies:
   '@playwright/test': 1.29.1
@@ -288,6 +292,10 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
+
+  /@master/css/1.37.8:
+    resolution: {integrity: sha512-n/yFwu3/hjLiiAO7WmEfdkvMFxEMDlLYL4jZcjYlp3AK2OlwO41jO6gE8d0xHDHy+grs8xAeskcHmA7MvWIhmQ==}
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

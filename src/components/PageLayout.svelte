@@ -1,15 +1,16 @@
 <script lang="ts">
-	import '@master/css';
-	import '../styles/master.css';
-	import '../styles/index.css';
+	import '@/styles/index.css';
 	export let title: string;
 </script>
 
-<head>
-	<title>
-		{title}
-	</title>
-</head>
-<main class="bg:gray-8 font:white px:64 py:32 min-h:100vh ">
+<svelte:head>
+	<link rel="icon" href="/DavTreeIcon.png" />
+	<title>{title}</title>
+</svelte:head>
+
+<main class="bg-black p-16 min-h-screen  text-white">
+	<nav class="my-4">
+		<a href="/" class="bg-blue-400 px-8 py-4 rounded-lg text-black"> go to home</a>
+	</nav>
 	<slot />
 </main>
